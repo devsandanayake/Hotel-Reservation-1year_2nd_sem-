@@ -1,0 +1,79 @@
+ /* Background */
+body {
+    margin: 40px 40px 40px 40px;
+    background-image: url(../image/signup.jpg);
+    background-size: cover;
+}
+/* Sign Up */
+#header {
+    color: rgb(64, 241, 76);
+    margin-left: 650px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 280%;
+}
+
+/* Form*/
+form {
+    border:1px solid rgba(255,255,255,0.5);
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0 25px 45px rgba(0,0,0,0.1);
+    background: rgba(255,255,255,0.1);
+    backdrop-filter:blur(5px);
+    border-right:1px solid rgba(255,255,255,0.2);
+    border-bottom:1px solid rgba(255,255,255,0.2)
+}
+/*Have an account*/
+#pre {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+/*submit button*/
+#submit {
+    color: white;
+    background-color: rgb(30, 30, 30);
+    height: 50px;
+    width: 408px;
+}
+#submit:hover {
+    background-color: rgb(95, 211, 114);
+    border: none;
+}
+#LName {
+    position: relative;
+    left: 240px;
+    bottom: 56px;
+}
+#Gen {
+    position: relative;
+    left: 240px;
+    bottom: 57px;
+}
+/*first name, last name*/
+#Details1 {
+    margin-left: 500px;
+    position: relative;
+    bottom: 10px;
+    
+}
+
+#Details2 {
+    margin-left: 500px;
+    position: relative;
+    bottom: 57px;
+}
+/*address*/
+#Details3 {
+    margin-left: 500px;
+    position: relative;
+    bottom: 110px;
+}
+
+/*Condition*/
+#message {
+    font-weight: bold;
+    position: absolute;
+    top: 285px;
+    left: 800px;
+    font-size:12px;
+}

@@ -1,0 +1,105 @@
+body {
+    background:url("../image/Book2.jpg");
+    background-size: cover;
+}
+
+.background {
+    border-radius: 20px;
+    background-color: rgba(190, 187, 187, 0.8);
+    padding-top: 10px;
+    padding-bottom: 40px;
+    margin-bottom: 40px;
+}
+
+h1{
+    font-size: 300%;
+    text-align: center;
+    font-family: 'Segoe UI';
+}
+
+.images{
+    display: flex;
+    justify-content: space-around;
+}
+
+.img-con img{
+    background-color: black;
+    height: 250px;
+    width: 250px;
+    position: relative;
+    border-radius: 10px;  
+}
+
+.bottom-left {
+    position: absolute;
+    bottom: 120px;
+    left: 140px;
+  }
+
+.botto-left {
+    position: absolute;
+    bottom: 120px;
+    left: 440px;
+  }
+
+.bott-left {
+    position: absolute;
+    bottom: 120px;
+    left: 730px;
+  }
+
+.bot-left {
+    position: absolute;
+    bottom: 120px;
+    left: 1010px;
+  }
+
+  .bo-left {
+    position: absolute;
+    bottom: 120px;
+    left: 1310px;
+  }
+
+  #next{
+      margin-left: 1100px;
+      width : 10px;
+  }
+  #next {
+    display: block;
+    width: 20%;
+    border: none;
+    
+    color: rgb(141, 55, 55);
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
+    text-align: center;
+  }
+  
+  #next:hover {
+    background-color: #ddd;
+    color: black;
+  }
+
+  #back{
+      margin-top: -45px;
+      margin-left: 20px;
+      width: 20%;
+  }
+
+  #back {
+    display: block;
+    width: 20%;
+    border: none;
+    
+    color: rgb(141, 55, 55);
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
+    text-align: center;
+  }
+
+  #back:hover {
+    background-color: #ddd;
+    color: black; 
+  }

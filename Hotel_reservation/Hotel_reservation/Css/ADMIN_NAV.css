@@ -1,0 +1,56 @@
+body {
+    background-image: url(../image/ADMIN.jpg);
+    background-size: cover;
+}
+#header {
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(40, 40, 40);
+    color: white;
+    float: left;
+    padding: 20px 20px 20px 20px;
+    position: relative;
+    bottom: 29.5px;
+}
+#n_bar{
+    margin-left: 160px;
+}
+/* Table Setup */
+table{
+    border-color: rgb(92, 88, 88);
+    background-color: rgb(248, 239, 239);
+    
+}
+.row {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: rgb(185, 55, 55);
+    padding-left: 10px;
+    padding-right: 10px;
+}
+table tr td{
+    color: rgb(228, 0, 0);
+    font-size: 20px;
+}
+#sub {
+    width: 100%;
+    font-size: large;
+    background-color: white;
+    color: rgb(40, 40, 40);
+}
+#sub:hover {
+    background-color: rgb(100, 202, 117);
+    color: rgb(40, 40, 40);
+    border-style: none;
+}
+#back_b {
+    position: absolute;
+    top: 32px;
+    right: 3%;
+    color: white;
+    background-color: rgb(40, 40, 40);
+    border-color: rgb(40, 40, 40);
+    font-size: 140%;
+    height: 74px;
+    width: 140px;
+}

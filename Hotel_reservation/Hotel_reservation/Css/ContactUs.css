@@ -1,0 +1,55 @@
+body {
+    margin: 40px 40px 40px 40px;
+    background-image: url(../image/ContactUS.jpg);
+    background-size: cover;
+}
+.form{
+	border:1px solid rgba(252, 249, 249, 0.5);
+    
+    border-radius: 20px;
+    box-shadow: 0 25px 45px rgba(0,0,0,0.1);
+    background: rgba(236, 233, 233, 0.1);
+    backdrop-filter:blur(15px);
+    border-right:1px solid rgba(255,255,255,0.2);
+    border-bottom:1px solid rgba(255,255,255,0.2);
+	padding:50px 0px 50px 0px;
+	text-align: center;
+	 
+	font-size:14px;
+	font-family:verdana;
+	color:White;
+	text-transform: uppercase;
+	border-radius: 4px;
+	margin: 0px 400px 40px 400px;
+}
+#question {
+	color: rgb(0, 0, 0);
+	font-family:verdana;
+	font-size: 26px;
+	background-color: rgb(245, 243, 243);
+	padding: 20px;
+	border-radius: 4px;
+	margin: 40px 400px 40px 400px;
+}
+#submit{
+	color: rgb(182, 38, 38);
+    background-color: rgb(70, 70, 70);
+	height: 40px;
+	width: 404px;
+}
+#submit:hover {
+    background-color: rgb(100, 100, 255);
+    border: none;
+}
+input[type="text"]{
+	height: 40px;
+	width: 400px;
+}
+input[type="email"]{
+	height: 40px;
+	width: 400px;
+}
+input[type="phone"]{
+	height: 40px;
+	width: 400px;
+}

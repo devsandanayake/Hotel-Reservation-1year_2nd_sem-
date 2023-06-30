@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>SIGN UP</title>
+    <link rel="stylesheet" href="../Css/SIGN_UP.css">
+    <link rel="stylesheet" href="../Css/FOOTER.css">
+    <link rel="stylesheet" href="../Css/Back.css">
+    <script type="text/javascript" src="../Js/SIGN_UP.js"></script>
+    <script type="text/javascript" src="../Js/Goback.js"></script>
+</head>
+<body>
+    <!-- Header -->
+    <h1 id="header">SIGN UP</h1>
+
+    
+    <!-- Form -->
+    <form method="POST" action="../Php/SIGN_Up.php">
+        <div id="Details1">
+            <p>First Name<br><input type="text" name="F_Name" id="F_Name" required></p>
+            <p id="LName">Last Name<br><input type="text" name="L_Name" id="L_Name" required></p>
+        </div>
+
+        <div id="Details2">
+
+        <p>E-mail<br><input type="email" name="Email" id="Email" placeholder="abc@gmail.com" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}" required></p>
+        <p>Password<br><input type="password" name="psw" id="psw" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" required></p>
+        <p>Confirm Password<br><input type="password" name="c_psw" id="c_psw" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" required></p>
+        <p>Mobile Number<br><input type="phone" name="mobile" id="mobile" placeholder="0701234567" pattern="[0-9]{10}" required></p>
+        <p>Date of Birth<br><input type="date" name="birth" id="birth"></p>
+        <p id="Gen">Gender<br>
+        <input type="radio" value="Male" name="GEN" checked>Male
+        <input type="radio" value="Female" name="GEN">Female
+        </p>
+        </div>
+
+        <div id="Details3">
+
+        <p>Address<br><textarea rows="4" cols="50" name="addr" id="addr"></textarea></p>
+        <p><input type="checkbox" id="agree" onclick="checkButton()">I herby confirm that the above informations are true</p>
+        <p><input type="submit" id="submit" value="SIGN UP" onclick="validate()" disabled></p>
+        <pre id="pre">Already have an account  <a href="../Html/LOGIN.html">Login</a></pre>
+        </div>
+    </form>
+
+    <!-- Password Condition-->
+    <div id="message">
+        <p>Must contain a Uppercase letter & Lowercase letter</p>
+        <p>And  a number and at least 8 or more characters</p>
+    </div>
+
+    <!-- Back Button-->
+    <button id="back_b" onclick="goBack()">BACK</button>
+    <br><br>
+    <div class="footer">
+        <footer class="footer-distributed">
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+            <div class="footer-right">
+                <div class="icons"><br>
+         
+             <a href="#" class="fa fa-facebook"></a>
+             <a href="#" class="fa fa-twitter"></a>
+             <a href="#" class="fa fa-instagram"></a>
+             <a href="#" class="fa fa-google-plus"></a>
+         
+            </div>
+         </div>
+         
+            <div class="footer-left">
+         
+             <p class="footer-links">
+              
+         <a href="#">Hotline: +94 11 56 86 895 | +94 11 22 94255</a><br>
+         
+              <a href="#">Hotel Location: Polonnaruwa, Sri Lanka</a>
+             </p>
+         
+             <p>All rights reserved.Terms of use|Privacy policy</p>
+            </div>
+         
+        </footer>
+    </div>
+    
+</body>
+</html>
